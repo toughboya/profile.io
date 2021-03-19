@@ -1,0 +1,451 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+
+  
+
+
+.profile h1{
+  font-size: 60px;
+  font-family: 'Dancing Script', cursive;
+  margin-left: 60px;
+}
+
+.profile img{
+  border-radius: 50%;
+  border: 3px solid #7fffd4;
+  background-position: center;
+}
+
+.two{
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 10px dashed #7fffd4;
+  border-bottom: 10px dashed #7fffd4;
+  
+}
+
+
+ 
+
+.name li{
+  text-align: center;
+  padding: 20px;
+  list-style-type: none;
+  font-size: 25px;
+  
+}
+
+.name li a{
+   color: inherit;
+   text-decoration: none;
+   padding: 10px;
+   border-radius: 30px;
+   background-color: #7fffd4;
+   user-select: none;
+   font-family: 'Dancing Script', cursive;
+   font-weight: bold;
+}
+
+.name li a:hover{
+  opacity: 0.7;
+}
+
+
+
+
+
+
+/* name */
+
+.syoukai{
+  margin-top: 20px;
+  padding: 30px;
+  border-top: 10px dashed #98fb98;
+  border-bottom: 10px dashed #98fb98;
+  
+}
+
+.tadashi h1{
+  font-size: 20px;
+  position: relative;
+  top: 100px;
+ 
+}
+
+.tadashi{
+  
+  width: 300px;
+  height: 300px;
+  background-color: #98fb98;
+  border:  3px solid #00ff00;
+  border-radius: 50%;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.birthday{
+  width: 300px;
+  height: 300px;
+  border:  3px solid #98fb98;
+  border-radius: 50%;
+  background-color: #7fffd4;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.birthday h1{
+  font-size: 20px;
+  position: relative;
+  top: 100px;
+}
+
+
+.nama{
+  
+  border-radius: 50%;
+  display: inline-block;
+  background-color: white;
+  padding: 10px;
+  margin: 5px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.second{
+  border-radius: 50%;
+  display: inline-block;
+  background-color: white;
+  padding: 10px;
+  margin: 5px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.top p{
+  display: block;
+  text-align: center;
+  margin: 0px auto;
+  padding: 10px;
+}
+
+
+
+.top a:hover{
+  opacity: 0.7;
+  color: #98fb98;
+}
+
+
+ 
+/* job */
+
+.work{
+  border-top: 10px dashed #00ff00;
+  border-bottom: 10px dashed #00ff00;
+  margin-top: 10px;
+}
+
+
+.job h2{
+  display: inline-block;
+  background-color: #98fb98;
+  padding: 10px;
+  border-radius: 30px;
+  border: 2px dashed #00ff00;
+}
+
+.job{
+  border: solid 5px #7fffd4;
+  margin: 30px;
+  padding: 30px;
+  text-align: center;
+  line-height: 1.7;
+}
+
+.job h1{
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  background-color: #98fb98;
+  border-radius: 50px;
+}
+
+
+
+
+.job li{
+  list-style-position: inside;
+
+ /* 前職 */
+}
+.job2 h2{
+  display: inline-block;
+  background-color: #7fffd4;
+  padding: 10px;
+  border-radius: 30px;
+  border: 2px dashed #00ff00;
+}
+
+.job2{
+  border: solid 5px #98fb98;
+  margin: 30px;
+  padding: 30px;
+  text-align: center;
+  line-height: 1.7;
+}
+
+.job2 h1{
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  background-color: #7fffd4;
+  border-radius: 50px;
+}
+
+
+
+.job2 li{
+  list-style-position: inside;
+}
+
+/* 趣味 */
+.hobby{
+  margin: 10px 0;
+  text-align: center;
+  border-top: 10px dashed #00ff00;
+  border-bottom: 10px dashed #00ff00;
+}
+
+.hobby img{
+  margin: 10px;
+}
+
+
+.read h2 {
+  margin: 10px;
+  padding: 0.5em;
+  font-size: 30px;
+  background: #98fb98;
+  border-radius: 20px;
+  
+}
+
+.read p{
+  padding: 30px;
+  text-align: justify;
+}
+
+.kinniku h2{
+  margin: 10px;
+  padding: 0.5em;
+  font-size: 30px;
+  background: #7fffd4;
+  border-radius: 20px;
+ 
+  
+}
+
+.kinniku p{
+  padding: 30px;
+  text-align: justify;
+}
+
+/* イラスト */
+.art h2{
+  margin: 10px;
+  padding: 0.5em;
+  font-size: 30px;
+  background: #00ff00;
+  border-radius: 20px;
+ 
+  
+}
+
+.art p{
+  padding: 30px;
+  text-align: justify;
+}
+
+/* スライドショー */
+
+main {
+  width: 500px;
+  margin: 20px auto;
+}
+
+main p{
+  padding: 10px;
+}
+
+img{
+  vertical-align: bottom;
+}
+
+ main ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 30px;
+  padding: 4px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+nav li:hover{
+ background: #f8f8f8;
+}
+
+#play{
+  width: 240px;
+}
+
+#prev,
+#next{
+  width: 100px;
+}
+
+#main{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 8px;
+}
+
+nav{
+
+  margin-bottom: 8px;
+}
+
+nav ul{
+ display: flex;
+ justify-content: space-between;
+}
+
+.thumbnails{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.thumbnails li{
+  cursor: pointer;
+  opacity: 0.4;
+  margin: 10px;
+}
+
+.thumbnails li:hover,
+.thumbnails li.current {
+  opacity: 1;
+}
+
+.thumbnails img{
+  width: 70px;
+}
+
+
+
+/* モバイル */
+@media (max-width: 640px){
+  .profile{
+   margin: auto;
+   text-align: center;
+  }
+
+  .profile img{
+    width: 200px;
+    height: 200px;
+   
+  }
+
+  .name li{
+    font-size: 15px;
+  }
+    .profile h1{
+      font-size: 40px;
+     
+  }
+
+  .two{
+    display: block;
+  }
+  .tadashi,.birthday{
+    width: 200px;
+    height: 200px;
+  }
+
+  .tadashi h1,
+  .birthday h1{
+    font-size: 15px;
+    position: relative;
+    top: 50px;
+  }
+
+  .work p{
+    font-size: 15px;
+  }
+
+  .job li{
+    font-size: 15px;
+  }
+
+.job h1{
+  font-size: 20px;
+}
+
+.job2 h1{
+  font-size: 20px;
+}
+
+.read h2{
+  font-size: 20px;
+}
+
+.kinniku h2{
+  font-size: 20px;
+}
+
+.art h2{
+  font-size: 20px;
+}
+  
+.thumbnails img{
+  width: 70%;
+}
+
+#play{
+  width: 70%;
+}
+
+#prev,
+#next{
+  width: 30%;
+}
+
+nav li{
+ margin: 5px;
+ font-size: 20px;
+}
+
+#main{
+  width: 70%;
+  height: 70%;
+  
+}
+
+main {
+  width: 70%;
+  
+}
+
+
+}
